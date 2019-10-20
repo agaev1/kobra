@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="kobra",
-    version="1.1.0",
+    version="1.2.0",
     author="agaev1",
     description="Helping you get to data faster",
     packages=setuptools.find_packages(),
@@ -13,6 +13,7 @@ setuptools.setup(
     ],
     install_requires=[
         'QuantLib-Python==1.16.1',
-        'pandas==0.25.2'
+        'pandas==0.25.2',
+        'pytest==5.2.1'
     ]
 )
