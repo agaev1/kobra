@@ -15,6 +15,6 @@ setuptools.setup(
         'QuantLib-Python==1.16.1',
         'pandas==0.25.2',
         'pytest==5.2.1',
-        'dash==1.4.1'
+        'dash==2.15.0'
     ]
 )
